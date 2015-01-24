@@ -15,6 +15,7 @@ The run_analysis.R script contains helper functions and a primary script:  run_a
 The script will also write the tidy data to a file if the `outfilename` argument is used. 
 
 ###### Usage:
+
 `source("run_analysis.R")
 
 run_analysis()`
