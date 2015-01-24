@@ -16,10 +16,15 @@ The script will also write the tidy data to a file if the `outfilename` argument
 
 ###### Usage:
 `source("run_analysis.R")
+
 run_analysis()`
+
 or 
+
 `run_analysis(rawdata.dir="foo")`
+
 or
+
 `run_analydid(outfilename="tidy_mean.csv")`
 
 ###### Dependencies:
