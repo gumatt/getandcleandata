@@ -15,12 +15,12 @@ The run_analysis.R script contains helper functions and a primary script:  run_a
 The script will also write the tidy data to a file if the `outfilename` argument is used. 
 
 ###### Usage:
-source("run_analysis.R")
-run_analysis()
-
-run_analysis(rawdata.dir="foo")
-
-run_analydid(outfilename="tidy_mean.csv")
+`source("run_analysis.R")
+run_analysis()`
+or 
+`run_analysis(rawdata.dir="foo")`
+or
+`run_analydid(outfilename="tidy_mean.csv")`
 
 ###### Dependencies:
 The included script uses the libraries reshape2 and plyr
