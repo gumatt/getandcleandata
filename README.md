@@ -16,17 +16,18 @@ The script will also write the tidy data to a file if the `outfilename` argument
 
 ###### Usage:
 
-`source("run_analysis.R")
-
-run_analysis()`
-
+```
+source("run_analysis.R")
+run_analysis()
+```
 or 
-
-`run_analysis(rawdata.dir="foo")`
-
+```
+run_analysis(rawdata.dir="foo")
+```
 or
-
-`run_analydid(outfilename="tidy_mean.csv")`
+```
+run_analydid(outfilename="tidy_mean.csv")
+```
 
 ###### Dependencies:
 The included script uses the libraries reshape2 and plyr
